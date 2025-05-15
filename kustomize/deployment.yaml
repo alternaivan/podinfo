@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: podinfod
-        image: ghcr.io/stefanprodan/podinfo:6.8.0-tag-doesnt-exist
+        image: ghcr.io/stefanprodan/podinfo:6.8.0
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
